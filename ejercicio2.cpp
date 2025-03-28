@@ -5,8 +5,7 @@ using namespace std;
 int main()
 {
 
-    for(int i=10; i > 0; i--)
-    {//Notemos que escribir i-- es similar a escribir i = i - 1
+    for(int i=10; i > 0; i--){
         cout << i << endl;
     }
     system("PAUSE");
